@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-creds',
-                    url: 'https://github.com/<your-github-username>/k8s-flask-jenkins-demo.git'
+                    url: 'https://github.com/syamaws/k8s-flask-jenkins-demo.git'
             }
         }
 
